@@ -1,16 +1,17 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using rest_sample.Models;
 
 namespace rest_sample
 {
-    public partial class Northwind_largeContext : DbContext
+    public partial class NorthwindDbContext : DbContext
     {
-        public Northwind_largeContext()
+        public NorthwindDbContext()
         {
         }
 
-        public Northwind_largeContext(DbContextOptions<Northwind_largeContext> options)
+        public NorthwindDbContext(DbContextOptions<NorthwindDbContext> options)
             : base(options)
         {
         }

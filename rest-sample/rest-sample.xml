@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rest-sample</name>
+    </assembly>
+    <members>
+        <member name="M:rest_sample.Controllers.EmployeesController.GetEmployee(System.Int64)">
+            <summary>
+            get employee by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace rest_sample
+﻿namespace rest_sample.Models
 {
     public partial class Product
     {
